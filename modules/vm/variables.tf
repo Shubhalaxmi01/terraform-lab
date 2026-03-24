@@ -1,0 +1,9 @@
+variable "linux_vm_name" {}
+variable "resource_group_name" {}
+variable "location" {}
+variable "size" {}
+variable "network_interface_ids" {}
+variable "admin_username" {}
+variable "admin_password" {}
+variable "image" {}
+variable "os_disk" {}
