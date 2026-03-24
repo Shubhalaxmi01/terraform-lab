@@ -13,18 +13,23 @@ This repository contains a modular Terraform configuration for deploying Azure i
 
 ## Repository Structure
 
-├── modules/
-│ ├── network/ # Virtual networks and subnets
-│ ├── nic/ # Network interfaces
-│ ├── publicip/ # Public IP addresses
-│ ├── rg/ # Resource groups
-│ └── vm/ # Virtual machines
-├── main.tf # Root Terraform configuration
-├── providers.tf # Provider configuration (AzureRM)
-├── variables.tf # Input variables
-├── terraform.tfvars # Environment-specific variable values
-├── output.tf # Output definitions
-└── .gitignore # Excludes sensitive files
+## Repository Structure
+
+```
+modules/
+├── network/       # Virtual networks and subnets
+├── nic/           # Network interfaces
+├── publicip/      # Public IP addresses
+├── rg/            # Resource groups
+└── vm/            # Virtual machines
+
+main.tf             # Root Terraform configuration
+providers.tf        # Provider configuration (AzureRM)
+variables.tf        # Input variables
+terraform.tfvars    # Environment-specific variable values
+output.tf           # Output definitions
+.gitignore          # Excludes sensitive files
+```
 
 ---
 
